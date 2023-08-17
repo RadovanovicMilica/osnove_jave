@@ -17,7 +17,6 @@ public class Vezbanje1 {
         int contrastG= 255 - originalG;
         int contrastB= 255 - originalB;
 
-        System.out.println("originalR");
         System.out.println("Originalna boja: RGB ("+ originalR +", "+ originalG +" , "+ originalB +")");
         System.out.println("Kontrastna boja: RGB ("+ contrastR +", "+ contrastG +", "+ contrastB +")");
 
