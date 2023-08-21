@@ -15,15 +15,13 @@ public class Zadatak_p10 {  public static void main(String[] args) {
              System.out.println("Unesite b:");
              int b= s.nextInt();
 
-             for (int i=1;i<=20; i++) {
-                 if (i<=a) {
-                     System.out.print("*");
-                 } else if (i>b) {
-                     System.out.print("*");
-                 }else {
-                     System.out.print("_");
 
+for (int i=1; i<=20; i++) {
+if (i<=a || i>b) {
+    System.out.print("*");
 
-                 }
-             }}}
-
+}else {
+        System.out.print("_");
+}
+}
+}}
