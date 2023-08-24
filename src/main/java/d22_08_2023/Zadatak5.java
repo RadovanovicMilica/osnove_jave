@@ -40,13 +40,13 @@ public class Zadatak5 {
             } else if (karakter.equals("=")) {
                 uneteZagrade = true;
             }
-
+        } // kraj while
             if (otvoreneZagrade == zatvoreneZagrade) {
                 System.out.println("jednako");
             } else {
                 System.out.println("nisu jednake");
             }
-        } // kraj while
+
     } // kraj main
 } // kraj klase
 
